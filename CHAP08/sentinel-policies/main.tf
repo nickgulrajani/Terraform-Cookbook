@@ -1,10 +1,10 @@
 terraform {
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "demoBook"
+    organization = "cdw-dash"
 
     workspaces {
-      name = "demo-app"
+      name = "New-Terraform-Cookbook"
     }
   }
 }
